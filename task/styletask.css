@@ -1,0 +1,74 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Merriweather", serif;
+   box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    margin-top: 10px;
+    background-color: black;
+}
+nav ul li a{
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: floralwhite;
+    padding: 20px;
+    height: 100px;
+    font-size: medium;
+    width: 100%;
+
+}
+
+.wlcm{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+h1{
+    color: white;
+    font-size: 20px;
+}
+h1:hover{
+    color: rgb(68, 42, 16);
+    text-shadow: 2px 4px 6px rgb(209, 22, 22);
+    text-decoration: underline;
+}
+span{
+    color: rgb(52, 38, 38);
+    font-size:30px ;
+}
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home{
+       background-image: url(https://i.ytimg.com/vi/PulO6d5iEgk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCpJx4FYyYf6J0fPpw4lFIMcZ7zpw);
+       height: 400px;
+       width: 100%;
+       
+    }
+    .iam{
+        border:3px inset blueviolet ;
+        padding: 10px;
+        display: flex;
+        position: absolute;
+        height: 80px;
+        left: 10%;
+        margin-top: 100px;
+        box-shadow: 2px 4px 6px rgb(67, 26, 26);
+
+    }

@@ -1,0 +1,221 @@
+*{
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 5px;
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+text-shadow: 2px 4px 6px black;
+text-decoration:underline ;
+}
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+h1{
+    color: white;
+    font-size: 20px;
+}
+
+h1:hover{
+    color: rgb(201, 187, 34);
+    text-shadow: 2px 4px 6px rgb(160, 200, 40);
+    text-decoration: underline;
+}
+span{
+    color: blueviolet;
+    font-size:40px ;
+}
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+content:"";
+   background-image: url(https://www.allprodad.com/wp-content/uploads/2021/03/05-12-21-happy-people.jpg);
+height: 100%;
+background-size: cover;
+}
+.main{
+    border:3px inset blueviolet ;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    height: 80px;
+    left: 60%;
+    margin-top: 250px;
+    box-shadow: 2px 4px 6px black;
+}
+.main:hover{
+    scale: 1.05;
+}
+h3{
+    color: brown;
+    background-color: burlywood;
+    font-style: italic;
+    text-align: center;
+}
+
+.pic{
+display: flex;
+}
+
+.pic img{
+    width: 300px;
+    height: 300px;
+}
+.pic img:hover{
+    filter: drop-shadow(3px 3px 20px rgb(0, 0, 0));
+
+}
+.pic h4{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+.gallery{
+   box-shadow: 2px 4px 6px;
+    margin: 20px;
+}
+.gallery img{
+    width: 400px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.box{
+    width: 400px;
+    height: 550px;
+    border: 3px ridge blueviolet ;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient( to top ,rgb(12, 22, 212) 50%,rgb(212, 211, 238)50%);
+    background-size: 100% 200%;
+    transition: all 1.0s;
+}
+
+.box:hover{
+    background-position: right bottom;
+    filter: drop-shadow(3px 3px 20px rgb(0, 0, 0));
+}
+.box img{
+    width: 300px;
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    padding: 5px;
+}
+.box h4{
+    font-size: 30px;
+    text-align: center;
+    color: cornflowerblue;
+    text-shadow: 2px 4px 6px black;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+.cv{
+    background-color: cadetblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 50%;
+border-radius: 10%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(141, 48, 48); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+  footer{
+    background-color: rgb(59, 53, 53) ;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+    font-size: medium;
+    color: rgb(207, 189, 166);
+}
+
+.info{
+    color:   rgb(239, 232, 222);
+    background-color:  rgb(59, 53, 53);
+    font-style: normal;
+}
